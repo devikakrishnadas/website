@@ -1,5 +1,6 @@
 html {
 	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
 }
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -15,6 +16,7 @@ section {
 	margin: 0;
 	max-width: none;
 	height: 100vh;
+	scroll-snap-align: center;
 }
 .pageBlack{
 	background: #191919 url('http://wizzley.com/static/img/bg/texture8.png');
