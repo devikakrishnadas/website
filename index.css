@@ -1,0 +1,124 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+section {
+	width: 100%;
+	padding: 0 0;
+	display: table;
+	margin: 0;
+	max-width: none;
+	height: 100vh;
+}
+.pageBlack{
+	background: #191919 url('http://wizzley.com/static/img/bg/texture8.png');
+	color: #EAC176;
+}
+
+.navbar {
+	background: #191919;
+	overflow: hidden;
+	opacity:70%;
+	width:100%;
+	position: fixed;
+	z-index: 10;
+}
+.quicklink-list {
+	overflow: hidden;
+	width: 100%;
+	align: center;
+	position: relative;
+}
+.navbar a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	color: #EAC176; 
+}
+.quicklink-list h1 {
+	position: fixed;
+}
+.quicklinks {
+	float: left; 
+	display: block;
+	padding: 14px 20px;
+	text-decoration: none;
+	color: black;
+	opacity: 60%;
+	width: 150px;
+	height: 150px;
+	margin: 12px;
+	background-color: #ddd;
+	border-radius: 25px;
+	overflow: hidden;
+}
+.navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.quicklinks:hover {
+	background-color:#ddd;
+	margin: 9.5px;
+	color: black;
+	padding: 14px 20px;
+	width: 155px;
+	height: 155px;
+	border-radius: 25px;
+}
+
+.navbar a.right {
+	float: right;
+}
+
+.out {
+	display: table;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;	
+	text-align: center;
+}
+.mid {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.in {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+.out p{
+	font-family: 'Montserrat', sans-serif;
+
+	opacity: 90%;
+}
+#p0 {
+	margin-bottom: 0;
+}
+.out h1{
+	font-size: 70px;
+	margin-top: 0px;
+	opacity: 80%;
+}
+
+.pageWhite {
+	background: #ddd url('http://wizzley.com/static/img/bg/texture15.png');
+	color: #191919;
+}
+#holder {
+	text-align: center;
+	align: center;
+}
+
+#holder h1 {
+	padding: 50px;
+	margin: 10px;
+}
+
