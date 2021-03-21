@@ -112,7 +112,7 @@ section {
 }
 
 .pageWhite {
-	background: #ddd url('http://wizzley.com/static/img/bg/texture15.png');
+	background: #ddd;
 	color: #191919;
 }
 #holder {
