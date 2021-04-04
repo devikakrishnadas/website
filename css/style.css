@@ -1,20 +1,20 @@
-#burger {
-	height: 25px;
-}
-
-html, body {
+html {
 	height: 100%;
 }
-
-#logo {
-	font-size: 30px;
+body {
+	height: 100%;
+}
+.btn {
+	border: 0px;
+}
+#main-box {
+	padding-left: 15%;
+	padding-right: 15%
 }
 
-#header {
-	padding: 10px;
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+  z-index:1; 
 }
-
-#body {
-	height:100%;
-}
-
